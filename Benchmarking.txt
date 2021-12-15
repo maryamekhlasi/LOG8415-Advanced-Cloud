@@ -1,0 +1,5 @@
+sysbench oltp_read_write --table-size=10000 --db-driver=mysql --mysql-host=18.212.34.241 --mysql-db=sakila --mysql-user='sysbench' --mysql-password='secret' prepare
+
+sysbench oltp_read_write --table-size=10000 --db-driver=mysql --mysql-host=18.212.34.241 --mysql-db=sakila --mysql-user='sysbench' --mysql-password='secret' --max-time=60 --max-requests=0 --num-threads=8 run
+
+
