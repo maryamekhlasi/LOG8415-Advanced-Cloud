@@ -1,4 +1,3 @@
-30631397;targets=571;devices=cpu;power=16813.725490196077 mW
 muid=567e4b8c-8730-463f-b5bf-35404ee13d0b;timestamp=1639930631897;targets=571;devices=cpu;power=17150.0 mW
 muid=567e4b8c-8730-463f-b5bf-35404ee13d0b;timestamp=1639930632397;targets=571;devices=cpu;power=13931.372549019608 mW
 muid=567e4b8c-8730-463f-b5bf-35404ee13d0b;timestamp=1639930632897;targets=571;devices=cpu;power=15716.98113207547 mW
