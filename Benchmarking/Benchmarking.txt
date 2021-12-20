@@ -1,5 +1,7 @@
-sysbench oltp_read_write --table-size=10000 --db-driver=mysql --mysql-host=18.212.34.241 --mysql-db=sakila --mysql-user='sysbench' --mysql-password='secret' prepare
+sysbench oltp_read_write --table-size=1000000 --db-driver=mysql --mysql-host=18.212.34.241 --mysql-db=sakila --mysql-user='servermysql' --mysql-password='secret' prepare
 
-sysbench oltp_read_write --table-size=10000 --db-driver=mysql --mysql-host=18.212.34.241 --mysql-db=sakila --mysql-user='sysbench' --mysql-password='secret' --max-time=60 --max-requests=0 --num-threads=8 run
+sysbench oltp_read_write --threads=2 --report-interval=3 --histogram --time=50 --table-size=1000000 --db-driver=mysql --mysql-host=18.212.34.241 --mysql-db=sakila --mysql-user='servermysql' --mysql-password='secret' run
+
+sysbench oltp_read_write --db-driver=mysql --mysql-host=18.212.34.241 --mysql-db=sakila --mysql-user='servermysql' --mysql-password='secret' cleanup
 
 
