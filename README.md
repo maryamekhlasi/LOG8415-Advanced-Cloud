@@ -1,7 +1,7 @@
 # LOG8415-Advanced_Cloud
 Final Project
 
-Two design pattern
+Two design patterns
 
 First Pattern: 
 Client -> Proxy -> Master -> Slaves
